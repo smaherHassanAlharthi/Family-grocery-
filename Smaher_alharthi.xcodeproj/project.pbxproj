@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16976DAC933048324C1284CF /* Pods_Smaher_alharthi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB78405544BF483AC445469 /* Pods_Smaher_alharthi.framework */; };
+		304278B9C22FD8B3E08A4FC4 /* Pods_Smaher_alharthi_Smaher_alharthiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FA7CBB8A8F5A77B3C314C3 /* Pods_Smaher_alharthi_Smaher_alharthiUITests.framework */; };
 		52010B29278F43C300F51F68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52010B28278F43C300F51F68 /* AppDelegate.swift */; };
 		52010B2B278F43C300F51F68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52010B2A278F43C300F51F68 /* SceneDelegate.swift */; };
 		52010B2D278F43C300F51F68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52010B2C278F43C300F51F68 /* ViewController.swift */; };
@@ -16,6 +18,10 @@
 		52010B40278F43C600F51F68 /* Smaher_alharthiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52010B3F278F43C600F51F68 /* Smaher_alharthiTests.swift */; };
 		52010B4A278F43C700F51F68 /* Smaher_alharthiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52010B49278F43C700F51F68 /* Smaher_alharthiUITests.swift */; };
 		52010B4C278F43C700F51F68 /* Smaher_alharthiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52010B4B278F43C700F51F68 /* Smaher_alharthiUITestsLaunchTests.swift */; };
+		52010B59278F49AA00F51F68 /* GroceryItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52010B58278F49AA00F51F68 /* GroceryItemTableViewController.swift */; };
+		52010B5B278F49F500F51F68 /* UserOnlineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52010B5A278F49F500F51F68 /* UserOnlineTableViewController.swift */; };
+		52010B5D278F4DBE00F51F68 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52010B5C278F4DBE00F51F68 /* GoogleService-Info.plist */; };
+		5B3FB431C5CBDF148FE141B1 /* Pods_Smaher_alharthiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B5A977CECC2B83BF95C6D4 /* Pods_Smaher_alharthiTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09B5A977CECC2B83BF95C6D4 /* Pods_Smaher_alharthiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smaher_alharthiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6D16F09AF7503550130A3F /* Pods-Smaher_alharthi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smaher_alharthi.release.xcconfig"; path = "Target Support Files/Pods-Smaher_alharthi/Pods-Smaher_alharthi.release.xcconfig"; sourceTree = "<group>"; };
+		4BE144CC1041662F3CD9E332 /* Pods-Smaher_alharthiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smaher_alharthiTests.debug.xcconfig"; path = "Target Support Files/Pods-Smaher_alharthiTests/Pods-Smaher_alharthiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		52010B25278F43C300F51F68 /* Smaher_alharthi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smaher_alharthi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52010B28278F43C300F51F68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52010B2A278F43C300F51F68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,15 @@
 		52010B45278F43C700F51F68 /* Smaher_alharthiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Smaher_alharthiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52010B49278F43C700F51F68 /* Smaher_alharthiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smaher_alharthiUITests.swift; sourceTree = "<group>"; };
 		52010B4B278F43C700F51F68 /* Smaher_alharthiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smaher_alharthiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52010B58278F49AA00F51F68 /* GroceryItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemTableViewController.swift; sourceTree = "<group>"; };
+		52010B5A278F49F500F51F68 /* UserOnlineTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserOnlineTableViewController.swift; sourceTree = "<group>"; };
+		52010B5C278F4DBE00F51F68 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6F419008AF39CA25CEB202F4 /* Pods-Smaher_alharthiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smaher_alharthiTests.release.xcconfig"; path = "Target Support Files/Pods-Smaher_alharthiTests/Pods-Smaher_alharthiTests.release.xcconfig"; sourceTree = "<group>"; };
+		91D0EC91A8FF90FF82F078C7 /* Pods-Smaher_alharthi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smaher_alharthi.debug.xcconfig"; path = "Target Support Files/Pods-Smaher_alharthi/Pods-Smaher_alharthi.debug.xcconfig"; sourceTree = "<group>"; };
+		BD0D455FFF33DFD020325D57 /* Pods-Smaher_alharthi-Smaher_alharthiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smaher_alharthi-Smaher_alharthiUITests.debug.xcconfig"; path = "Target Support Files/Pods-Smaher_alharthi-Smaher_alharthiUITests/Pods-Smaher_alharthi-Smaher_alharthiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDB78405544BF483AC445469 /* Pods_Smaher_alharthi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smaher_alharthi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC85231BC6C20772A940FB6 /* Pods-Smaher_alharthi-Smaher_alharthiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smaher_alharthi-Smaher_alharthiUITests.release.xcconfig"; path = "Target Support Files/Pods-Smaher_alharthi-Smaher_alharthiUITests/Pods-Smaher_alharthi-Smaher_alharthiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D0FA7CBB8A8F5A77B3C314C3 /* Pods_Smaher_alharthi_Smaher_alharthiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smaher_alharthi_Smaher_alharthiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16976DAC933048324C1284CF /* Pods_Smaher_alharthi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B3FB431C5CBDF148FE141B1 /* Pods_Smaher_alharthiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				304278B9C22FD8B3E08A4FC4 /* Pods_Smaher_alharthi_Smaher_alharthiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AE32DE26D1439176C56A958 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91D0EC91A8FF90FF82F078C7 /* Pods-Smaher_alharthi.debug.xcconfig */,
+				2F6D16F09AF7503550130A3F /* Pods-Smaher_alharthi.release.xcconfig */,
+				BD0D455FFF33DFD020325D57 /* Pods-Smaher_alharthi-Smaher_alharthiUITests.debug.xcconfig */,
+				CFC85231BC6C20772A940FB6 /* Pods-Smaher_alharthi-Smaher_alharthiUITests.release.xcconfig */,
+				4BE144CC1041662F3CD9E332 /* Pods-Smaher_alharthiTests.debug.xcconfig */,
+				6F419008AF39CA25CEB202F4 /* Pods-Smaher_alharthiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		338C99797E7897591CC8B9A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDB78405544BF483AC445469 /* Pods_Smaher_alharthi.framework */,
+				D0FA7CBB8A8F5A77B3C314C3 /* Pods_Smaher_alharthi_Smaher_alharthiUITests.framework */,
+				09B5A977CECC2B83BF95C6D4 /* Pods_Smaher_alharthiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		52010B1C278F43C300F51F68 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				52010B3E278F43C600F51F68 /* Smaher_alharthiTests */,
 				52010B48278F43C700F51F68 /* Smaher_alharthiUITests */,
 				52010B26278F43C300F51F68 /* Products */,
+				2AE32DE26D1439176C56A958 /* Pods */,
+				338C99797E7897591CC8B9A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +149,11 @@
 				52010B2A278F43C300F51F68 /* SceneDelegate.swift */,
 				52010B2C278F43C300F51F68 /* ViewController.swift */,
 				52010B2E278F43C300F51F68 /* Main.storyboard */,
+				52010B5A278F49F500F51F68 /* UserOnlineTableViewController.swift */,
+				52010B58278F49AA00F51F68 /* GroceryItemTableViewController.swift */,
 				52010B31278F43C600F51F68 /* Assets.xcassets */,
 				52010B33278F43C600F51F68 /* LaunchScreen.storyboard */,
+				52010B5C278F4DBE00F51F68 /* GoogleService-Info.plist */,
 				52010B36278F43C600F51F68 /* Info.plist */,
 			);
 			path = Smaher_alharthi;
@@ -134,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52010B4F278F43C700F51F68 /* Build configuration list for PBXNativeTarget "Smaher_alharthi" */;
 			buildPhases = (
+				61F01CEB4FEE59007B199234 /* [CP] Check Pods Manifest.lock */,
 				52010B21278F43C300F51F68 /* Sources */,
 				52010B22278F43C300F51F68 /* Frameworks */,
 				52010B23278F43C300F51F68 /* Resources */,
+				5A2525C815530E1F5F38DF3B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52010B52278F43C700F51F68 /* Build configuration list for PBXNativeTarget "Smaher_alharthiTests" */;
 			buildPhases = (
+				EFA0ED2EBD1ACD13BF80B5F3 /* [CP] Check Pods Manifest.lock */,
 				52010B37278F43C600F51F68 /* Sources */,
 				52010B38278F43C600F51F68 /* Frameworks */,
 				52010B39278F43C600F51F68 /* Resources */,
@@ -169,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52010B55278F43C700F51F68 /* Build configuration list for PBXNativeTarget "Smaher_alharthiUITests" */;
 			buildPhases = (
+				D1BBD2267F036FBFB0E130C2 /* [CP] Check Pods Manifest.lock */,
 				52010B41278F43C700F51F68 /* Sources */,
 				52010B42278F43C700F51F68 /* Frameworks */,
 				52010B43278F43C700F51F68 /* Resources */,
+				F2887319AAC972E86B95A8D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52010B35278F43C600F51F68 /* LaunchScreen.storyboard in Resources */,
+				52010B5D278F4DBE00F51F68 /* GoogleService-Info.plist in Resources */,
 				52010B32278F43C600F51F68 /* Assets.xcassets in Resources */,
 				52010B30278F43C300F51F68 /* Main.storyboard in Resources */,
 			);
@@ -253,11 +308,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A2525C815530E1F5F38DF3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smaher_alharthi/Pods-Smaher_alharthi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smaher_alharthi/Pods-Smaher_alharthi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Smaher_alharthi/Pods-Smaher_alharthi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61F01CEB4FEE59007B199234 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smaher_alharthi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1BBD2267F036FBFB0E130C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smaher_alharthi-Smaher_alharthiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFA0ED2EBD1ACD13BF80B5F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smaher_alharthiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2887319AAC972E86B95A8D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smaher_alharthi-Smaher_alharthiUITests/Pods-Smaher_alharthi-Smaher_alharthiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smaher_alharthi-Smaher_alharthiUITests/Pods-Smaher_alharthi-Smaher_alharthiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Smaher_alharthi-Smaher_alharthiUITests/Pods-Smaher_alharthi-Smaher_alharthiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52010B21278F43C300F51F68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52010B5B278F49F500F51F68 /* UserOnlineTableViewController.swift in Sources */,
+				52010B59278F49AA00F51F68 /* GroceryItemTableViewController.swift in Sources */,
 				52010B2D278F43C300F51F68 /* ViewController.swift in Sources */,
 				52010B29278F43C300F51F68 /* AppDelegate.swift in Sources */,
 				52010B2B278F43C300F51F68 /* SceneDelegate.swift in Sources */,
@@ -434,6 +594,7 @@
 		};
 		52010B50278F43C700F51F68 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D0EC91A8FF90FF82F078C7 /* Pods-Smaher_alharthi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +623,7 @@
 		};
 		52010B51278F43C700F51F68 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6D16F09AF7503550130A3F /* Pods-Smaher_alharthi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +652,7 @@
 		};
 		52010B53278F43C700F51F68 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BE144CC1041662F3CD9E332 /* Pods-Smaher_alharthiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +678,7 @@
 		};
 		52010B54278F43C700F51F68 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F419008AF39CA25CEB202F4 /* Pods-Smaher_alharthiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +704,7 @@
 		};
 		52010B56278F43C700F51F68 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD0D455FFF33DFD020325D57 /* Pods-Smaher_alharthi-Smaher_alharthiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +728,7 @@
 		};
 		52010B57278F43C700F51F68 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC85231BC6C20772A940FB6 /* Pods-Smaher_alharthi-Smaher_alharthiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
