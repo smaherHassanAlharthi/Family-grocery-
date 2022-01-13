@@ -11,7 +11,7 @@
 		304278B9C22FD8B3E08A4FC4 /* Pods_Smaher_alharthi_Smaher_alharthiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FA7CBB8A8F5A77B3C314C3 /* Pods_Smaher_alharthi_Smaher_alharthiUITests.framework */; };
 		52010B29278F43C300F51F68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52010B28278F43C300F51F68 /* AppDelegate.swift */; };
 		52010B2B278F43C300F51F68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52010B2A278F43C300F51F68 /* SceneDelegate.swift */; };
-		52010B2D278F43C300F51F68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52010B2C278F43C300F51F68 /* ViewController.swift */; };
+		52010B2D278F43C300F51F68 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52010B2C278F43C300F51F68 /* RegisterViewController.swift */; };
 		52010B30278F43C300F51F68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52010B2E278F43C300F51F68 /* Main.storyboard */; };
 		52010B32278F43C600F51F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52010B31278F43C600F51F68 /* Assets.xcassets */; };
 		52010B35278F43C600F51F68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52010B33278F43C600F51F68 /* LaunchScreen.storyboard */; };
@@ -21,6 +21,8 @@
 		52010B59278F49AA00F51F68 /* GroceryItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52010B58278F49AA00F51F68 /* GroceryItemTableViewController.swift */; };
 		52010B5B278F49F500F51F68 /* UserOnlineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52010B5A278F49F500F51F68 /* UserOnlineTableViewController.swift */; };
 		52010B5D278F4DBE00F51F68 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52010B5C278F4DBE00F51F68 /* GoogleService-Info.plist */; };
+		5217E60C278FBC19002B0F6B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217E60B278FBC19002B0F6B /* LoginViewController.swift */; };
+		52F11DC3278F5477007F1C2C /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F11DC2278F5476007F1C2C /* DataBaseManager.swift */; };
 		5B3FB431C5CBDF148FE141B1 /* Pods_Smaher_alharthiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B5A977CECC2B83BF95C6D4 /* Pods_Smaher_alharthiTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +50,7 @@
 		52010B25278F43C300F51F68 /* Smaher_alharthi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smaher_alharthi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52010B28278F43C300F51F68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52010B2A278F43C300F51F68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52010B2C278F43C300F51F68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52010B2C278F43C300F51F68 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		52010B2F278F43C300F51F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52010B31278F43C600F51F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52010B34278F43C600F51F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +63,8 @@
 		52010B58278F49AA00F51F68 /* GroceryItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemTableViewController.swift; sourceTree = "<group>"; };
 		52010B5A278F49F500F51F68 /* UserOnlineTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserOnlineTableViewController.swift; sourceTree = "<group>"; };
 		52010B5C278F4DBE00F51F68 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5217E60B278FBC19002B0F6B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		52F11DC2278F5476007F1C2C /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
 		6F419008AF39CA25CEB202F4 /* Pods-Smaher_alharthiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smaher_alharthiTests.release.xcconfig"; path = "Target Support Files/Pods-Smaher_alharthiTests/Pods-Smaher_alharthiTests.release.xcconfig"; sourceTree = "<group>"; };
 		91D0EC91A8FF90FF82F078C7 /* Pods-Smaher_alharthi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smaher_alharthi.debug.xcconfig"; path = "Target Support Files/Pods-Smaher_alharthi/Pods-Smaher_alharthi.debug.xcconfig"; sourceTree = "<group>"; };
 		BD0D455FFF33DFD020325D57 /* Pods-Smaher_alharthi-Smaher_alharthiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smaher_alharthi-Smaher_alharthiUITests.debug.xcconfig"; path = "Target Support Files/Pods-Smaher_alharthi-Smaher_alharthiUITests/Pods-Smaher_alharthi-Smaher_alharthiUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,10 +151,12 @@
 			children = (
 				52010B28278F43C300F51F68 /* AppDelegate.swift */,
 				52010B2A278F43C300F51F68 /* SceneDelegate.swift */,
-				52010B2C278F43C300F51F68 /* ViewController.swift */,
 				52010B2E278F43C300F51F68 /* Main.storyboard */,
 				52010B5A278F49F500F51F68 /* UserOnlineTableViewController.swift */,
 				52010B58278F49AA00F51F68 /* GroceryItemTableViewController.swift */,
+				52010B2C278F43C300F51F68 /* RegisterViewController.swift */,
+				5217E60B278FBC19002B0F6B /* LoginViewController.swift */,
+				52F11DC2278F5476007F1C2C /* DataBaseManager.swift */,
 				52010B31278F43C600F51F68 /* Assets.xcassets */,
 				52010B33278F43C600F51F68 /* LaunchScreen.storyboard */,
 				52010B5C278F4DBE00F51F68 /* GoogleService-Info.plist */,
@@ -416,10 +422,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5217E60C278FBC19002B0F6B /* LoginViewController.swift in Sources */,
 				52010B5B278F49F500F51F68 /* UserOnlineTableViewController.swift in Sources */,
 				52010B59278F49AA00F51F68 /* GroceryItemTableViewController.swift in Sources */,
-				52010B2D278F43C300F51F68 /* ViewController.swift in Sources */,
+				52010B2D278F43C300F51F68 /* RegisterViewController.swift in Sources */,
 				52010B29278F43C300F51F68 /* AppDelegate.swift in Sources */,
+				52F11DC3278F5477007F1C2C /* DataBaseManager.swift in Sources */,
 				52010B2B278F43C300F51F68 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
