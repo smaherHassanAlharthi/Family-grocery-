@@ -14,11 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
  
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        
-
         //For firebase
         FirebaseApp.configure()
+        //Application data is available offline (offline support)
         Database.database().isPersistenceEnabled = true
         return true
     }

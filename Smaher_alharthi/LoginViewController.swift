@@ -57,13 +57,17 @@ class LoginViewController: UIViewController {
             }
             
             let user = result.user
-            
             UserDefaults.standard.set(email, forKey: "email")
-            
-            print("logged in user \(user) ")
-            strongSelf.performSegue(withIdentifier: "home", sender: nil)
-            
-            
+            let GroceryUser = GroceryAppUser(emailAddress: strongSelf.loginEmail.text!,  userId: Auth.auth().currentUser!.uid )
+            DataBaseManager.shared.insertUser(with: GroceryUser, completion: {sucess in
+                if sucess{
+                print("logged in user \(user) ")
+                strongSelf.performSegue(withIdentifier: "LoginTohome", sender: nil)
+                }else{
+                    print("user logged in failed")
+                }
+            })
+         
         }
     }
     

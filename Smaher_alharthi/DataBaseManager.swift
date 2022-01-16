@@ -11,7 +11,7 @@ import UIKit
 
 final class DataBaseManager{
     static let shared = DataBaseManager()
-    private let db = Database.database().reference()
+    public let db = Database.database().reference()
     static func safeEmail(emailAddress: String) -> String{
         var safeEmail = emailAddress.replacingOccurrences(of: ".", with: "-")
         safeEmail = safeEmail.replacingOccurrences(of: "@", with: "-")
@@ -129,7 +129,7 @@ struct GroceryAppUser{
 }
 struct GroceryAppItem{
     let addedByUser : String
-    let completed : Bool
+    var completed : Bool
     let name : String
     
 }

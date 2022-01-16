@@ -19,7 +19,12 @@ class RegisterViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        if UserDefaults.standard.value(forKey: "email") != nil {
+                        // if user logged in go to home View Conttroller
+                    self.performSegue(withIdentifier: "home", sender: nil)
+                    }
+        
 
     }
     
@@ -59,7 +64,7 @@ class RegisterViewController: UIViewController {
             })
                 
         }}
-        
+    //Sign in by User Account
     @IBAction func RegisterButtonPressed(_ sender: Any) {
         if email.text!.isEmpty || password.text!.isEmpty || confirmPassword.text!.isEmpty {
             AlertDialog(title: "Missing Feilds", message: "Please fill all the ")
